@@ -1,0 +1,25 @@
+group 1 {
+body text : opensans-italic ; size 19
+subtitle : opensans-bolditalic ; size 23
+title (Italian Food) - reey-regular ; size 59
+}
+
+
+group 2 {
+bodytext - opensans
+tile - reey-regular
+    content{
+        body text : opensans
+        title (Lorem ipsum) - opensans-bold
+    }
+    button font  - opensans-extrabold
+}
+
+group 3 {
+button - montserrat-bold
+body text - montserrat-regular
+}
+
+group 4 {
+title (January promo edhe aja tjetra) - opensans-bold
+}
