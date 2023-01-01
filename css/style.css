@@ -29,7 +29,7 @@ svg {
 }
 
 .container {
-  width: 90%;
+  width: 85%;
   margin-inline: auto;
 }
 
@@ -50,11 +50,18 @@ nav > ul {
 }
 
 nav {
-  padding: 2.5rem;
+  /* padding: 2.5rem;
+  margin-bottom: 2rem; */
+  height: 15vh;
+  align-items: center;
 }
 
 .section1 {
   height: 100vh;
+  background-image: url("../img/s1-hero-main.svg");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 90% 50%;
 }
 
 .section-background-image {
@@ -86,10 +93,110 @@ nav > input[type="text"] {
   border: none;
   height: 2rem;
 }
+
 .icon {
   color: black;
   text-align: center;
   border-bottom-right-radius: 24px;
   border-top-right-radius: 24px;
   background-color: white;
+}
+
+.hero {
+  display: flex;
+  height: 85vh;
+  justify-content: space-between;
+}
+
+.hero-left {
+  flex: 45%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 4rem;
+}
+
+.hero-right {
+  flex: 55%;
+
+  /* flex-grow: 3; */
+}
+.hero-title {
+  font: 4rem "Reey", sans-serif;
+  color: white;
+}
+.hero-subtitle {
+  font: bold italic 1.5rem "Open Sans", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.hero-text {
+  padding-right: 3rem;
+  font: italic 1rem "Open Sans", sans-serif;
+  color: white;
+  text-align: justify;
+}
+
+.read-more {
+  border-radius: 24px;
+  border: none;
+  height: 2.5rem;
+  width: fit-content;
+  padding-inline: 1rem;
+  font: bold 1.5rem "Open Sans", sans-serif;
+}
+
+/* .s1-hero-main {
+  background-image: url("../img/s1-hero-main.png");
+  background-repeat: no-repeat;
+  background-position: 90% -25%;
+}
+.s1-hero-second {
+  background-image: url("../img/s1-hero-second.png");
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: 90% -25%;
+}
+.s1-hero-leaf {
+  background-image: url("../img/s1-hero-leaf.png");
+  background-repeat: no-repeat;
+  background-position: 90% -25%;
+} */
+
+/* .s1-hero-main {
+  size: 1000px;
+  background-position: 90% -25%;
+}
+.s1-hero-second {
+  background-position: 90% -25%;
+}
+.s1-hero-leaf {
+  background-position: 90% -25%;
+} */
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  bottom: -100px;
+  left: 1px;
+}
+
+.image3 {
+  position: absolute;
+  bottom: -170px;
+  left: 200px;
+  overflow: hidden;
 }
