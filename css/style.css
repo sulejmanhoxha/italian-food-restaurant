@@ -186,10 +186,10 @@ nav > input[type="text"] {
   left: 0;
 }
 
-.image1 {
-  position: relative;
+/* .image1 {
+  position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
 }
 
 .image2 {
@@ -203,8 +203,25 @@ nav > input[type="text"] {
   bottom: -170px;
   left: 200px;
   object-fit: contain;
+} */
+
+.image1 {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
+.image2 {
+  position: absolute;
+  bottom: -700px;
+  left: 0;
+}
+
+.image3 {
+  position: absolute;
+  bottom: -980px;
+  left: 300px;
+}
 .section2 {
   height: 100vh;
   /* padding-top: 2rem;
@@ -268,4 +285,33 @@ nav > input[type="text"] {
 
 button:hover {
   opacity: 85%;
+}
+
+.section3 {
+  background-color: #232429;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.section3 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.section3-flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.normal-text1 {
+  font: 1rem "Montserrat", sans-serif;
+  color: white;
+  text-align: justify;
+}
+
+.normal-text2 {
+  font: 1rem "Open Sans", sans-serif;
+  color: #16181e;
+  text-align: justify;
 }
