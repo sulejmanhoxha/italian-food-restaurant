@@ -21,6 +21,12 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 img,
 picture,
 svg {
@@ -118,8 +124,6 @@ nav > input[type="text"] {
 
 .hero-right {
   flex: 55%;
-
-  /* flex-grow: 3; */
 }
 .hero-title {
   font: 4rem "Reey", sans-serif;
@@ -198,5 +202,70 @@ nav > input[type="text"] {
   position: absolute;
   bottom: -170px;
   left: 200px;
-  overflow: hidden;
+  object-fit: contain;
+}
+
+.section2 {
+  height: 100vh;
+  /* padding-top: 2rem;
+  padding-bottom: 2rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section2-title {
+  font: 4rem "Reey", sans-serif;
+  color: #16181e;
+  text-align: center;
+  margin-top: 1rem;
+}
+.section2-text {
+  font: 1rem "Open Sans", sans-serif;
+  color: #16181e;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.section2-mid-flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.section2-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.section2-items img {
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px #16181e;
+}
+
+.section2-items h3 {
+  font: bold 1.5rem "Open Sans", sans-serif;
+  color: #16181e;
+  padding-left: 1rem;
+}
+.section2-items p {
+  font: 1rem "Open Sans", sans-serif;
+  color: #16181e;
+  padding-left: 1rem;
+}
+
+.show-more {
+  border-radius: 24px;
+  border: none;
+  height: 2.5rem;
+  width: fit-content;
+  padding-inline: 1rem;
+  font: bold 1.5rem "Open Sans", sans-serif;
+  color: white;
+  background-color: #313131;
+}
+
+button:hover {
+  opacity: 85%;
 }
