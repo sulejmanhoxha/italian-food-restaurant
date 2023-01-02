@@ -315,3 +315,28 @@ button:hover {
   color: #16181e;
   text-align: justify;
 }
+
+.section4 {
+  padding-top: 3rem;
+}
+
+.section4-flex {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+.section4-flex img {
+  flex-grow: 1;
+}
+.section4-flex > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.section4 h2 {
+  font: bold 2.5rem "Open Sans", sans-serif;
+  color: #16181e;
+}
