@@ -23,8 +23,8 @@ html {
 
 html,
 body {
-  max-width: 100%;
-  overflow-x: hidden;
+  /* max-width: 100%;
+  overflow-x: hidden; */
 }
 
 img,
@@ -94,7 +94,7 @@ a:active {
   position: relative;
 }
 
-nav > input[type="text"] {
+nav input[type="text"] {
   border-radius: 24px;
   border: none;
   height: 2rem;
@@ -258,7 +258,7 @@ nav > input[type="text"] {
 
 .section2-items img {
   border-radius: 50%;
-  box-shadow: 10px 10px 10px #16181e;
+  box-shadow: 0 30px 30px rgba(128, 128, 128, 0.726);
 }
 
 .section2-items h3 {
@@ -328,9 +328,12 @@ button:hover {
 }
 
 .section4-flex img {
-  flex-grow: 1;
+  flex: 50%;
+  border-radius: 50%;
+  box-shadow: 0 30px 30px rgba(128, 128, 128, 0.726);
 }
 .section4-flex > div {
+  flex: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -339,4 +342,74 @@ button:hover {
 .section4 h2 {
   font: bold 2.5rem "Open Sans", sans-serif;
   color: #16181e;
+}
+.section4 p {
+  font: 1.5rem "Open Sans", sans-serif;
+  color: #16181e;
+}
+
+.section4 button {
+  margin-top: 1rem;
+  border-radius: 34px;
+  border: none;
+  height: 4rem;
+  width: fit-content;
+  padding-inline: 2rem;
+  font: bold 2rem "Open Sans", sans-serif;
+  color: white;
+  background-color: #313131;
+}
+
+.section5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section5 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.section5 h2 {
+  margin: 3rem 0 1rem 0;
+  font: 2.5rem "Reey", sans-serif;
+  color: white;
+}
+
+.section5 p {
+  font: 1.3rem "Open Sans", sans-serif;
+  color: white;
+  text-align: justify;
+  line-height: 1.5rem;
+  max-width: 70%;
+}
+
+.parent1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.pizza {
+  position: absolute;
+  top: 35%;
+  right: 0;
+}
+
+.pizza-slice {
+  position: absolute;
+  bottom: -26%;
+  left: -10%;
+}
+
+.pizza-leaf {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
