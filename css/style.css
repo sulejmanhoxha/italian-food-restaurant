@@ -453,3 +453,77 @@ button:hover {
   text-align: center;
   margin-top: 1rem;
 }
+
+.section7 {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222428;
+  /* position: relative; */
+  color: white;
+  overflow-y: hidden;
+}
+
+.form-leaf {
+  position: absolute;
+  top: -100%;
+  left: 0;
+}
+
+.position-relative {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.section7 h2 {
+  font: bold 3rem "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.section7 p {
+  font: 1.3rem "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.section7 > div {
+  height: 20vh;
+}
+
+.text-button {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.section7 input[type="text"] {
+  position: absolute;
+  top: 0;
+  left: -10vw;
+  border-radius: 24px;
+  border: none;
+  height: 2.5rem;
+  padding-left: 1rem;
+  width: 40vw;
+}
+
+.section7 button {
+  position: absolute;
+  top: 0;
+  right: -30vw;
+  margin-top: 1rem;
+  border-radius: 34px;
+  border: none;
+  height: 2.5rem;
+  width: fit-content;
+  padding-inline: 2rem;
+  font: bold 1.5rem "Open Sans", sans-serif;
+  color: white;
+  background-color: #313131;
+}
