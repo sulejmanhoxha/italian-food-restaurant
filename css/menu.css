@@ -50,11 +50,16 @@ nav > ul {
   line-height: 2rem;
 }
 
-.navigation {
+.navigation-bg {
   background-color: #16181e;
+}
+
+.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 85%;
+  margin-inline: auto;
 }
 
 nav {
@@ -123,14 +128,14 @@ hr {
 
 section {
   padding: 3rem 0;
-  max-width: 50%;
 }
 
 .container {
   width: 50%;
   margin-inline: auto;
 }
-@media only screen and (min-width: 600px) {
+
+@media only screen and (max-width: 1000px) {
   section {
     padding: 3rem 0;
     max-width: fit-content;

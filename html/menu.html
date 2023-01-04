@@ -17,9 +17,18 @@
 
   <body>
     <!-- Navigation -->
-    <div class="">
-      <div class="container navigation">
-        <img src="../img/logo.svg" height="100" width="100" alt="" />
+    <div class="navigation-bg">
+      <div class="navigation">
+        <a href="../index.html">
+          <img
+            src="../img/logo.svg"
+            id="logo"
+            height="100"
+            width="100"
+            alt=""
+          />
+        </a>
+
         <nav>
           <ul>
             <li><a href="../index.html">Home</a></li>
@@ -36,17 +45,18 @@
     <main>
       <h1>Our Menu</h1>
       <hr class="container" />
+
       <!-- Nav for menu categories  -->
       <div class="container nav-menu">
-        <h3><a href="">Starters</a></h3>
-        <h3><a href="">Pasta dishes</a></h3>
-        <h3><a href="">Pizza</a></h3>
-        <h3><a href="">Main courses</a></h3>
-        <h3><a href="">Desserts</a></h3>
-        <h3><a href="">Drinks</a></h3>
+        <h3><a href="#starters">Starters</a></h3>
+        <h3><a href="#pasta">Pasta dishes</a></h3>
+        <h3><a href="#pizza">Pizza</a></h3>
+        <h3><a href="#main-courses">Main courses</a></h3>
+        <h3><a href="#desserts">Desserts</a></h3>
+        <h3><a href="#drinks">Drinks</a></h3>
       </div>
 
-      <section class="container">
+      <section class="container" id="starters">
         <div class="section-flex">
           <img src="../img/bruschetta.png" alt="" />
 
@@ -73,7 +83,7 @@
         </div>
       </section>
 
-      <section class="container">
+      <section class="container" id="pasta">
         <div class="section-flex">
           <div>
             <h2>Pasta dishes</h2>
@@ -99,98 +109,114 @@
         </div>
       </section>
 
-      <h2>Pasta dishes</h2>
-      <div>
-        <div>
-          <div>Spaghetti Bolognese</div>
-          <div>300g</div>
-          <div>8.50€</div>
-        </div>
-        <div>
-          <div>Fettuccine Alfredo</div>
-          <div>250g</div>
-          <div>9.50€</div>
-        </div>
-        <div>
-          <div>Lasagna</div>
-          <div>400g</div>
-          <div>11.50€</div>
-        </div>
-      </div>
-      <h2>Pizza</h2>
-      <div>
-        <div>
-          <div>Margherita</div>
-          <div>300g</div>
-          <div>8.50€</div>
-        </div>
-        <div>
-          <div>Pepperoni</div>
-          <div>350g</div>
-          <div>10.50€</div>
-        </div>
-        <div>
-          <div>Veggie</div>
-          <div>300g</div>
-          <div>9.50€</div>
-        </div>
-      </div>
-      <h2>Main courses</h2>
-      <div>
-        <div>
-          <div>Grilled chicken</div>
-          <div>300g</div>
-          <div>12.50€</div>
-        </div>
-        <div>
-          <div>Pork chop</div>
-          <div>400g</div>
-          <div>15.50€</div>
-        </div>
-        <div>
-          <div>Salmon</div>
-          <div>250g</div>
-          <div>16.50€</div>
-        </div>
-      </div>
-      <h2>Desserts</h2>
-      <div>
-        <div>
-          <div>Tiramisu</div>
-          <div>150g</div>
-          <div>5.50€</div>
-        </div>
-        <div>
-          <div>Gelato</div>
-          <div>100g</div>
-          <div>4.50€</div>
-        </div>
-        <div>
-          <div>Chocolate cake</div>
-          <div>200g</div>
-          <div>6.50€</div>
-        </div>
-      </div>
+      <section class="container" id="pizza">
+        <div class="section-flex">
+          <img src="../img/pizza2.png" alt="" />
 
-      <h2>Drinks</h2>
-      <div>
-        <div>
-          <div>Coca-Cola</div>
-          <div>330mL</div>
-          <div>2.50€</div>
+          <div>
+            <h2>Pizza</h2>
+            <div class="category">
+              <div>
+                <div>Margherita</div>
+                <div>300g</div>
+                <div>8.50€</div>
+              </div>
+              <div>
+                <div>Pepperoni</div>
+                <div>350g</div>
+                <div>10.50€</div>
+              </div>
+              <div>
+                <div>Veggie</div>
+                <div>300g</div>
+                <div>9.50€</div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <div>Mineral water</div>
-          <div>500mL</div>
-          <div>2.50€</div>
+      </section>
+
+      <section class="container" id="main-courses">
+        <div class="section-flex">
+          <div>
+            <h2>Main courses</h2>
+            <div class="category">
+              <div>
+                <div>Grilled chicken</div>
+                <div>300g</div>
+                <div>12.50€</div>
+              </div>
+              <div>
+                <div>Pork chop</div>
+                <div>400g</div>
+                <div>15.50€</div>
+              </div>
+              <div>
+                <div>Salmon</div>
+                <div>250g</div>
+                <div>16.50€</div>
+              </div>
+            </div>
+          </div>
+          <img src="../img/salmon.png" alt="" />
         </div>
-        <div>
-          <div>Espresso</div>
-          <div>30mL</div>
-          <div>1.50€</div>
+      </section>
+
+      <section class="container" id="desserts">
+        <div class="section-flex">
+          <img src="../img/tiramisu.png" alt="" />
+
+          <div>
+            <h2>Desserts</h2>
+            <div class="category">
+              <div>
+                <div>Tiramisu</div>
+                <div>150g</div>
+                <div>5.50€</div>
+              </div>
+              <div>
+                <div>Gelato</div>
+                <div>100g</div>
+                <div>4.50€</div>
+              </div>
+              <div>
+                <div>Chocolate cake</div>
+                <div>200g</div>
+                <div>6.50€</div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section class="container" id="drinks">
+        <div class="section-flex">
+          <div>
+            <h2>Drinks</h2>
+            <div class="category">
+              <div>
+                <div>Coca-Cola</div>
+                <div>330mL</div>
+                <div>2.50€</div>
+              </div>
+              <div>
+                <div>Mineral water</div>
+                <div>500mL</div>
+                <div>2.50€</div>
+              </div>
+              <div>
+                <div>Espresso</div>
+                <div>30mL</div>
+                <div>1.50€</div>
+              </div>
+            </div>
+          </div>
+          <img src="../img/coffee.png" alt="" />
+        </div>
+      </section>
     </main>
+
+    <hr class="container" />
 
     <!-- Footer -->
     <footer class="container">
