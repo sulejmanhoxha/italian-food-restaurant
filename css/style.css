@@ -361,6 +361,10 @@ button:hover {
   background-color: #313131;
 }
 
+.section4 button:hover {
+  background-color: #ad9050;
+}
+
 .section5 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -558,9 +562,18 @@ footer ul {
 }
 footer li {
   font: 1rem "Open Sans", sans-serif;
-  color: #16181e;
   white-space: nowrap;
   line-height: 2rem;
+}
+
+footer a:link,
+footer a:visited {
+  color: black;
+}
+
+footer a:hover,
+footer a:active {
+  color: #ad9050;
 }
 
 footer i {

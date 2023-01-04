@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/reey");
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Reey', sans-serif;
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav,
+nav > ul {
+  display: flex;
+  justify-content: end;
+  gap: 4rem;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: white;
+  line-height: 2rem;
+}
+
+.navigation {
+  background-color: #16181e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  /* padding: 2.5rem;
+  margin-bottom: 2rem; */
+  height: 15vh;
+  align-items: center;
+}
+
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover,
+nav a:active {
+  color: #ad9050;
+}
+
+nav input[type="text"] {
+  border-radius: 24px;
+  border: none;
+  height: 2rem;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #ad9050;
+}
+
+a:hover,
+a:active {
+  opacity: 85%;
+}
+
+.nav-menu {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.nav-menu h3 {
+  font: bold 1.5rem "Reey", sans-serif;
+  /* font: 1rem "Open Sans", sans-serif; */
+  white-space: nowrap;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  font: 3rem "Open Sans", sans-serif;
+  color: #ad9050;
+  margin: 2rem;
+}
+hr {
+  background-color: #ad9050;
+  height: 2px;
+}
+
+section {
+  padding: 3rem 0;
+  max-width: 50%;
+}
+
+.container {
+  width: 50%;
+  margin-inline: auto;
+}
+@media only screen and (min-width: 600px) {
+  section {
+    padding: 3rem 0;
+    max-width: fit-content;
+  }
+
+  .container {
+    width: 85%;
+    margin-inline: auto;
+  }
+}
+
+.section-flex {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+.section-flex img {
+  max-width: 50%;
+}
+
+.section-flex > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  white-space: nowrap;
+}
+
+section h2 {
+  font: bold 2rem "Reey", sans-serif;
+  text-align: center;
+  color: #ad9050;
+  text-decoration-line: underline;
+}
+
+.category {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  font: 1.5rem "Open Sans", sans-serif;
+  color: #16181e;
+}
+
+.category > div {
+  display: flex;
+  border-bottom: 2px solid #ad9050;
+  margin-bottom: 0.5rem;
+}
+
+.category > div > div:nth-child(1) {
+  flex: 50%;
+}
+.category > div > div:nth-child(2) {
+  text-align: center;
+  flex: 25%;
+}
+.category > div > div:nth-child(3) {
+  text-align: center;
+  flex: 25%;
+}
+footer {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > div {
+  display: flex;
+  gap: 4rem;
+}
+
+footer h2 {
+  font: 1.75rem "Open Sans", sans-serif;
+  color: #16181e;
+  margin-bottom: 0.5rem;
+}
+
+footer p {
+  font: 1rem "Open Sans", sans-serif;
+  color: #16181e;
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  font: 1rem "Open Sans", sans-serif;
+  white-space: nowrap;
+  line-height: 2rem;
+}
+
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover,
+footer a:active {
+  color: #ad9050;
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: black;
+}
+
+i:hover {
+  color: #ad9050;
+}
