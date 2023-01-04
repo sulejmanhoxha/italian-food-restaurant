@@ -84,7 +84,7 @@ a:visited {
 
 a:hover,
 a:active {
-  color: yellow;
+  color: #ad9050;
 }
 
 /* Style the input container */
@@ -284,6 +284,7 @@ nav input[type="text"] {
 }
 
 button:hover {
+  background-color: #ad9050;
   opacity: 85%;
 }
 
@@ -526,4 +527,47 @@ button:hover {
   font: bold 1.5rem "Open Sans", sans-serif;
   color: white;
   background-color: #313131;
+}
+
+footer {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > div {
+  display: flex;
+  gap: 4rem;
+}
+
+footer h2 {
+  font: 1.75rem "Open Sans", sans-serif;
+  color: #16181e;
+  margin-bottom: 0.5rem;
+}
+
+footer p {
+  font: 1rem "Open Sans", sans-serif;
+  color: #16181e;
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  font: 1rem "Open Sans", sans-serif;
+  color: #16181e;
+  white-space: nowrap;
+  line-height: 2rem;
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: black;
+}
+
+i:hover {
+  color: #ad9050;
 }
